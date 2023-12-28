@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Настройка шапки и горизонтального меню с логотипом-->
+    <div class="css_name">
+        <header>
+         <div class="all_header_menu">
+             <div class="logo">
+                <a href="index.html"><h1 style="margin-left: 70px;">IndexDrive</h1></a>
+             </div>
+             <div class="Top_menu">
+                 <ul>
+                     <li><a href="#">Акции</a></li>
+                     <li><a href="#">Бронирование</a></li>
+                     <li><input type="text" placeholder="Поиск..."></li>
+                     <li><a href="profile.html"><img src="human.png" style="width: 15%;"></a></li>
+                 </ul>
+             </div>
+             <div class="avto_client">
+                <img src="машина 1.png" alt="" class="avto_client_booking">
+             </div>
+             <div class="information_about_the_car">
+                <h1 align="center">Введите данные об авто</h1>
+                <div class="forma_zapolnenia">
+                    <input type="text" placeholder="Введите идентификатор авто*" class="input_one_booking">
+
+                    <div class="two_stroka_forma">
+                        <input type="text" placeholder="Номер авто" class="input_two_booking">
+
+                        <select class="select_one_booking">
+                            <option value=”GR”>Марка авто</option>
+                            <option value=”YE”>CHERY</option>
+                            <option value=”BL”>Skoda</option>
+                            <option value="">Volkswagen</option>
+                            <option value="">Kia</option>
+                        </select>
+                        <select class="select_two_booking">
+                            <option value=”GR”>159</option>
+                            <option value=”YE”>124</option>
+                            <option value=”BL”>125</option>
+                            <option value="">150</option>
+                            <option value="">174</option>
+                        </select>
+                    </div>
+                    <div class="three_stroka_forma">
+                        <p class="stroka_forma_1"><b>Дата брони</b></p>
+                        <p class="stroka_forma_2"><b>Дата возврата</b></p>
+                        <input type="date" placeholder="Дата брони" class="date_bron">
+                        <input type="date" placeholder="Дата возврата" class="date_vzvrata">
+                    </div>
+                    <p class="summa_zakaza"><font size="+1"><b>Стоимость за день: 5600 руб</b></font></p>
+                    <div class="filial">
+                        <select name="" id="" class="select_three_booking">
+                            <option value="">Выберите филиал</option>
+                            <option value="">г. Пермь, ул. Пушкина, д. 107А</option>
+                            <option value="">г. Пермь, ул. Сысольская, д. 12</option>
+                            <option value="">г. Пермь, ул. Академика Веденеева, д. 9</option>
+                        </select>
+                        <div class="sm_na_karte" >
+                            <form action="branches.html"><button>Смотреть на карте</button></form>
+                        </div>
+                        <h2 align="center">Пожалуйста заполните информацию<br> о себе</h2>
+                        <div class="info_me">
+                            <input type="text" placeholder="Имя"><br>
+                            <input type="text" placeholder="Фамилия"><br>
+                            <input type="text" placeholder="Отчество"><br>
+                        </div>
+                        <div class="personal_data">
+                            <input type="text" placeholder="номер телефона">
+                        </div>
+                        <div class="pasport">
+                            <p><font size="+1"><b>Паспортные данные</b></font></p>
+                            <input type="text" placeholder="Серия" class="input_ps_1">
+                            <input type="text" placeholder="Номер" class="input_ps_2">
+                        </div>
+                    </div>
+                    <div class="credit_card">
+                        <h2 align="center">Данные банковской карты</h2>
+                        <div class="forms_credit">
+                            <input type="text" class="forms_credit_1" placeholder="Номер карты" ><br>
+                            <input type="text" class="forms_credit_2" placeholder="срок">
+                            <input type="text" class="forms_credit_3" placeholder="CVV/CVC">
+                           <form action="#">
+                            <button class="knopka_pr"><b>Привязать</b></button>
+                           </form>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="par_happy"><b>Дата рождения</b></p>
+                        <input type="date" class="happy_b">
+                    </div>
+                    <h2 class="final">Финальная стоимость:<br>5600 рублей</h2>
+                    <forma action="#">
+                        <button class="final_1"><b>Забронировать</b></button>
+                    </forma>
+                </div>
+                
+             </div>
+             <div class="specifications">
+                <h3 align="center" style="color: white;">Харакатеристики автомобиля</h3>
+                <p>1.Тип двигателя: гибрид бензин</p>
+                <p>2.Объем двигателя: 1.5</p>
+                <p>3.Тип КПП: автомат</p>
+                <p>4.Кол-во передач: 6</p>
+                <p>5.Привод: полный</p>
+                <p>6.Мощность: 147</p>
+                <p>7.Макс. скорость: 180</p>
+                <p>8.Потребляемое топливо: 92</p>
+                <p>9.Разгон до 100: 7.5</p>
+                <p>10.Снаряженная масса: 2323</p>
+                <p>11.Клиренс: 180</p>
+                <p>12.Объем багажника: 193</p>
+             </div>
+             <div class="buton">
+                <button class="buton_1">Выбрать другой автомобиль</button>
+                <button class="buton_2">Выбрать еще один автомобиль</button>
+             </div>
+
+             <div class="podval_login" style="margin-top: 1%;">
+                <h2>Наши соц.сети</h2>
+                <div class="social">
+                    <img src="vk.png" alt="" class="social_1">
+                    <img src="tg.png" alt="" class="social_2">
+                    <img src="odno.png" alt="" class="social_3">
+                    <img src="dzen.png" alt="" class="social_4">
+                    <img src="viber.png" alt="" class="social_5">
+                </div>
+                <div class="Top_menu_podval">
+                    <ul style="margin-left: 530px; margin-top: -80px;">
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Бронирование</a></li>
+                        <li><a href="#">Личный кабинет</a></li>
+                    </ul>
+                </div>
+                <div class="podval_1" style="margin-top: -2%;">
+                    <p><font size="+2">IndexDrive@gmail.com</font></p>
+                    <p><font size="+2">8 (800) 111-11-11</font></p>
+                    <p><font size="+2">Г.Пермь, Ул.Пушкина, 107А</font></p>
+                </div>
+                <hr style="margin-top: 50px;" >
+                <br>
+                <p align="center"><font size="+2" style="color: white;">Разработчик: Шлыков Павел Александрович, 1-ИС, 2-курс,Информационные системы и программирование</font></p>
+            </div> 
+             
+
+</body>
+</html>

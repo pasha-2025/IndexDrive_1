@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Настройка шапки и горизонтального меню с логотипом-->
+    <div class="css_name">
+        <header>
+         <div class="all_header_menu">
+             <div class="logo">
+                 <h1 style="margin-left: 70px;">IndexDrive</h1>
+             </div>
+             <div class="Top_menu">
+                 <ul>
+                     <li><a href="#">Акции</a></li>
+                     <li><a href="#">Бронирование</a></li>
+                     <li><input type="text" placeholder="Поиск..."></li>
+                     <li><a href="login.html"><img src="Кнопка войти.png"></a></li>
+                 </ul>
+             </div>
+             <!--Вставка картинки как фон-->
+             <div id="header">
+                <img src="фон главной страницы.png" alt="" width="100%" height="100%">
+             </div>
+             <!--Работа над фильтром-select,button-->
+             <div id="filter">
+                <select id="selectID_1">
+                    <option value=”GR”>Класс автомобиля</option>
+                    <option value=”YE”>A</option>
+                    <option value=”BL”>B</option>
+                    <option value=”BL”>C</option>
+                </select>
+
+                <select id="selectID_2">
+                    <option value=”GR”>Марка</option>
+                    <option value=”YE”>volkswagen</option>
+                    <option value=”BL”>Skoda</option>
+                    <option value=”BL”>Chery</option>
+                </select>
+
+                <select id="selectID_3">
+                    <option value=”GR”>Модель</option>
+                    <option value=”YE”>.</option>
+                    <option value=”BL”>.</option>
+                </select>
+
+                <button>Поиск...</button>
+            </div>
+            <div class="zag">
+                <h1 class="zagalovok_arenda_avto"><u>АВТОМОБИЛИ</u></h1>
+                <img src="Смотреть все.png" alt="" class="sm_vse">
+            </div>       
+    </div> 
+    <div class="avto">
+         <div class="avto_1">
+            <h2 align="center">Chery Tiggo 8 Pro e+, 2022</h2>
+            <p>от 5600 руб</p>
+
+            <div class="svoboden_1">
+                <h5 align="center">Свободен</h5>
+            </div>
+            <img src="машина 1.png" alt="">
+
+            <div class="pd_1">
+                <img src="подробнее.png" alt="">
+            </div>
+            <div class="img_br_1">
+                <a href="booking.html"><img src="Забронировать.png" alt=""></a>
+            </div>
+            <div class="txt_pd">
+                <h2>Подробнее</h2>
+            </div>
+         </div>
+
+         <div class="avto_2">
+            <h2 align="center">Skoda superb DSG, 2009</h2>
+            <p>от 5600 руб</p>
+            <div class="svoboden_2">
+                <h5 align="center">Свободен</h5>
+            </div>
+            <img src="Машина 2.png" alt="">
+            <div class="pd_2">
+                <img src="подробнее.png" alt="">
+            </div>
+            <div class="img_br_1">
+                <img src="Забронировать.png" alt="">
+            </div>
+            <div class="txt_pd">
+                <h2>Подробнее</h2>
+            </div>
+         </div>
+
+         <div class="avto_3">
+            <h2 align="center">Volkswagen Polo, 2018</h2>
+            <p>от 5600 руб</p>
+            <div class="svoboden_3">
+                <h5 align="center">Свободен</h5>
+            </div>
+            <img src="машина 3.png" alt="">
+            <div class="pd_3">
+                <img src="подробнее.png" alt="">
+            </div>
+            <div class="img_br_1">
+                <img src="Забронировать.png" alt="">
+            </div>
+            <div class="txt_pd">
+                <h2>Подробнее</h2>
+            </div>
+         </div>
+
+         <div class="avto_4">
+            <h2 align="center">Kia Sportage, 2013</h2>
+            <p>от 5600 руб</p>
+            <div class="svoboden_4">
+                <h5 align="center">Свободен</h5>
+            </div>
+            <img src="машина 4.png" alt="">
+            <div class="pd_4">
+                <img src="подробнее.png" alt="">
+            </div>
+            <div class="img_br_1">
+                <img src="Забронировать.png" alt="">
+            </div>
+            <div class="txt_pd">
+                <h2>Подробнее</h2>
+            </div>
+            
+         </div>   
+    </div>
+
+     <!--Продолжить с новостей-->
+    <div class="vesti_text">
+        <h1 align="center">Новости</h1>
+     </div>
+     <br>
+
+    <div class="slider middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+
+            <div class="slide s1"><img src="1.png" alt=""></div>
+            <div class="slide"><img src="2.png" alt=""></div>
+            <div class="slide"><img src="3.png" alt=""></div>
+            <div class="slide"><img src="4.png" alt=""></div>
+        </div>
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+        </div>
+    </div>
+
+    <div class="dover">
+          <h1 align="center">Причины доверять нашей компании при аренде автомобиля:</h1>
+          <div class="image text">
+            <img src="image_1.png" alt="" class="img_1">
+            <h2 class="text_1">
+                1.Надежность и безопасность:<br> 
+                Наша компания имеет многолетний<br> опыт работы в сфере аренды<br> автомобилей, что говорит о нашем<br> 
+                профессионализме и надежности. Мы<br> заботимся о безопасности наших<br> клиентов и их имущества, 
+                поэтому все<br> автомобили проходят регулярные<br> технические осмотры и проверки<br> состояния.
+            </h2>
+            <img src="Image_2.png" alt="" class="img_2">
+            <h2 class="text_2">
+                2.Широкий выбор автомобилей:<br>
+                Мы предлагаем аренду<br> автомобилей различных марок,<br> моделей и классов, чтобы<br> удовлетворить потребности<br> 
+                каждого клиента. Вы можете<br> выбрать автомобиль, который<br> лучше всего подходит для ваших<br> нужд – будь то семейный автомобиль,<br> внедорожник<br>
+                или спортивный кабриолет.
+            </h2>
+            <img src="image_3.png" alt="" class="img_3">
+            <h2 class="text_3">
+                3.Выгодные условия аренды:<br> 
+                Мы предлагаем конкурентоспособные<br> цены и гибкие условия аренды, чтобы<br> наши клиенты могли сэкономить<br>
+                на аренде автомобиля без ущерба для<br> качествауслуг. У нас также есть<br> специальные предложения и акции для<br> постоянных клиентов.
+            </h2>
+          </div>
+    </div>
+    <div class="banner">
+        <img src="баннер.png" alt="">
+    </div>
+    <br>
+    <br>
+    <div class="podval">
+        <h2>Наши соц.сети</h2>
+        <div class="social">
+            <img src="vk.png" alt="" class="social_1">
+            <img src="tg.png" alt="" class="social_2">
+            <img src="odno.png" alt="" class="social_3">
+            <img src="dzen.png" alt="" class="social_4">
+            <img src="viber.png" alt="" class="social_5">
+        </div>
+        <div class="Top_menu_podval">
+            <ul style="margin-left: 530px; margin-top: -80px;">
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Бронирование</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+            </ul>
+        </div>
+        <div class="podval_1">
+            <p> <font size="+2">IndexDrive@gmail.com</font></p>
+            <p><font size="+2">8 (800) 111-11-11</font></p>
+            <p><font size="+2">Г.Пермь, Ул.Пушкина, 107А</font></p>
+        </div>
+        <hr style="margin-top: 50px;" >
+        <br>
+        <p align="center"><font size="+2" style="color: white;">Разработчик: Шлыков Павел Александрович, 1-ИС, 2-курс,Информационные системы и программирование</font></p>
+    </div>
+</body>
+</html>
